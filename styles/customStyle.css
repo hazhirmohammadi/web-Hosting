@@ -1,0 +1,146 @@
+.margin-0 {
+    margin: 0 !important;
+}
+
+/*margin bottom*/
+.margin-b {
+    margin-bottom: 0 !important;
+}
+
+/* margin-top*/
+.margin-t {
+    margin-top: 0 !important;
+}
+.margin-r{
+    margin-right: 0 !important;
+}
+.mt-80px{
+    margin-top: 80px;
+}
+/* margin x ==row*/
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.padding-0 {
+    padding: 0 !important;
+}
+
+/*padding-top*/
+.padding-t {
+    padding-top: 0 !important;
+}
+
+/*padding-bottom*/
+.padding-b {
+    padding-bottom: 0 !important;
+}
+
+
+.width-100 {
+    width: 100% !important;
+}
+
+.dis-none {
+    display: none !important;
+}
+
+.dis-flex {
+    display: flex !important;
+}
+.flex-wrap{
+    flex-wrap:wrap;
+}
+
+.dis-black {
+    display: block !important;
+
+}
+
+.text-white {
+    color: white;
+}
+
+.align-items-center{
+    align-items: center !important;
+
+}
+
+.justify-content-center{
+    justify-content: center !important;
+}
+
+.justify-content-between{
+    justify-content: space-between !important;
+}
+
+.border-0{
+    border: none !important;
+}
+.outline-0{
+    outline: none !important;
+
+}
+/*.light-blue{
+color: #93a5ff;
+384170
+}*/
+.primery-btn{
+    border:none;
+    outline: none;
+    padding: 14px 15px;
+    border-radius: 5px;
+    color: white;
+    background-color: #93a5ff;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+@media only screen and (min-width: 576px ) {
+    .d-sm-none {
+        display: none !important;
+    }
+
+    .d-sm-black {
+        display: block !important;
+    }
+
+    .d-sm-flex {
+        display: flex !important;
+    }
+}
+
+@media only screen and (min-width: 768px ) {
+    .d-md-none {
+        display: none !important;
+    }
+
+    .d-md-black {
+        display: block !important;
+    }
+
+    .d-md-flex {
+        display: flex !important;
+    }
+}
+
+@media only screen and (min-width: 992px ) {
+    .d-lg-none {
+        display: none !important;
+    }
+
+    .d-lg-black {
+        display: block !important;
+    }
+
+    .d-lg-flex {
+        display: flex !important;
+    }
+}
+.order-0{
+    order: 0 !important;
+}
+.order-1{
+    order: 1 !important;
+}

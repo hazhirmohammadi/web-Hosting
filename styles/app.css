@@ -1,0 +1,512 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Nunito-Regular, sans-serif;
+}
+
+a {
+    color: white;
+}
+
+/*======================= start header =========================*/
+header {
+    background: url("../imags/Hero1_BG.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 700px;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding:0 0 35px 0;
+}
+
+.main-menu {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.menu-item {
+    margin-right: 25px;
+    cursor: pointer;
+    padding: 40px 15px 15px 18px;
+
+}
+ .menu-item.active-1{
+    background-color: #93A5FF;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius:5px ;
+}
+
+.menu-link {
+
+}
+
+.login-btn {
+    background-color: white;
+    color: #93a5ff;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: .3s;
+}
+.login-btn:hover{
+    color: white;
+    background-color: #93A5FF;
+    transition:.3s ease-in;
+}
+
+.menu-icon {
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+
+}
+
+/*==========================header content======================*/
+.header-title {
+    font-size: 2.2em;
+    font-family: "Nunito Regular", serif;
+}
+
+.header-caption {
+    font-size: 19px;
+    opacity: 80%;
+}
+
+.header-txt {
+    background-color: #384170;
+    color: white;
+    padding: 14px 15px 14px 15px;
+    margin-right: 1px;
+    font-size: 12px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    max-width: 280px;
+    width: 100%;
+}
+
+.header-txt::placeholder {
+    color: white;
+}
+
+.hearer-domains {
+    background-color: #384170;
+    color: white;
+    padding: 14px 20px 14px 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-right: 20px;
+}
+
+.header-content {
+    margin-top: 70px;
+}
+
+.flex-wrapper {
+    flex-basis: 380px;
+}
+.header-btn:hover{
+    background-color: #98a4e0;
+}
+/*==========================end header======================*/
+
+
+/*=========================start main=======================*/
+
+/*---------------service section-------------*/
+.section-title {
+    font-family: "Nunito Ex bold", serif;
+    color: #2E2e2e;
+    justify-content: center;
+    display: flex;
+}
+
+.section-caption {
+    opacity: 80%;
+    font-family: "Nunito Regular", serif;
+    color: #2E2e2e;
+    justify-content: center;
+    display: flex;
+}
+
+.services {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.services dir.row {
+    margin-top: 80px;
+}
+
+.service {
+    align-items: flex-start;
+    margin-top: 40px;
+}
+
+.service img {
+    margin-right: 20px;
+}
+
+.service-content {
+    text-align: left;
+
+}
+
+.service-content h3 {
+    margin-bottom: 15px;
+    font-family: "Nunito bold", serif;
+}
+
+.service-content p {
+    opacity: 80%;
+    color: #2E2e2e;
+    font-size: 17px;
+    font-family: "Nunito Regular", serif;
+    line-height: 25px;
+    max-width: 430px;
+}
+
+/*---------start section---------*/
+.start > .row {
+    margin-top: 80px;
+}
+
+.start .row .col-12 {
+    margin-bottom: 25px;
+}
+
+.start {
+    background-color: #e6eafd;
+    padding: 70px 0;
+}
+
+.start-box {
+    background-color: #93a5ff;
+    border-radius: 5px;
+    padding: 30px;
+    position: relative;
+}
+
+.start-logo {
+    background-color: #424d83;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+}
+
+.start-title {
+    font-family: "Nunito bold", serif;
+    color: white;
+    margin-top: 38px;
+
+}
+
+.start-description {
+    font-family: "Nunito Regular", serif;
+    color: white;
+    line-height: 25px;
+}
+
+.start-btn {
+    font-family: "Nunito bold", serif;
+    background-color: white;
+    color: #93a5ff;
+    right: 25px;
+    margin-left: auto;
+    width: 155px;
+    display: block;
+text-align: left;
+    padding: 10px 0 14px  14px;
+
+}
+.start-btn i{
+    transition: all .3s;
+    margin-left: 0;
+}
+.start-btn:hover i{
+    margin-left: 15px;
+}
+.start-img-fix {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    max-width: 220px;
+
+}
+
+
+
+.start-box2 {
+    background-color: #424d83;
+}
+
+.start-logo2 {
+    background-color: #93a5ff;
+}
+
+/*=====================start plans=====================*/
+.plan {
+    color: #2E2e2e;
+    box-shadow: 0 0 15px 0 rgba(194, 194, 194, 0.64);
+    text-align: center;
+    margin-bottom: 120px; /******!!!!!!********/
+    border-radius: 5px;
+    overflow: hidden;
+    /*height: 100%;*/
+}
+
+.plan-top {
+    padding: 60px 30px 0 20px;
+    transition: 0.3s;
+    border-top: 8px solid transparent;
+    height: 330px;
+}
+
+.plan-img {
+
+}
+
+.plan-title {
+    font-family: "Nunito bold", serif;
+
+}
+
+.plan-description {
+    font-family: "Nunito Regular", serif;
+    line-height: 28px;
+}
+
+.plan-bottom {
+    border-top: 1px solid #ebebeb;
+    padding: 30px 0;
+    transition: 0.3s;
+    height: 128px;
+    overflow: hidden;
+}
+
+.plan:hover .plan-bottom {
+    height: 239px;
+
+}
+
+.plan:hover .plan-top {
+    border-top: 8px solid #93a5ff;
+
+
+}
+
+.plan-price {
+    font-size: 40px;
+    margin-top: 15px;
+}
+
+.plan-price small {
+    font-size: 14px;
+}
+
+.plan-btn {
+    font-family: "Nunito bold", serif;
+    color: #93a5ff;
+    background-color: #e0e4fa;
+    width: 185px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: left;
+    transition: all .3s;
+}
+.plan-btn:hover{
+    background-color: #93A5FF;
+    color: white;
+}
+.plan-btn i{
+    transition: all .3s;
+    margin-left: 0;
+}
+.plan-btn:hover i{
+    margin-left: 15px;
+}
+.plan-btn i {
+
+}
+
+/*======================Clients section=====================*/
+
+.clients-logo {
+    list-style-type: none;
+    padding: 50px 0 30px 0;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
+
+.btn-Clients {
+    margin: 0 auto;
+    display: block;
+    width: 152px;
+    transition: .3s all;
+}
+.btn-Clients:hover{
+    background-color: #abb6f5;
+}
+
+.clients-logo li {
+    margin-bottom: 20px;
+    flex-grow: 1;
+}
+
+.clients-logo li img {
+    width: 168px;
+}
+
+/*====================comments section==================*/
+
+.comments {
+    background-color: #F7F8FF;
+    padding: 60px 0;
+    position: relative;
+}
+
+.comments-img {
+    position: absolute;
+}
+
+.comments-img1 {
+    top: 0;
+    right: 0;
+}
+
+.comments-img2 {
+    bottom: 0;
+    left: 0;
+}
+
+.comment {
+
+}
+
+.comment-img {
+    width: 85px !important;
+    margin-right: 15px;
+}
+
+.comment-content {
+
+}
+
+.comment-rating {
+
+}
+
+.comment-rating i {
+    color: #FAD56B;
+    margin-right: 3px;
+}
+
+.comment-body {
+    font-family: "Nunito italic";
+    color: #2E2E2E;
+    line-height: 28px;
+}
+
+.comment-person {
+    color: #2E2E2E;
+    font-family: "Nunito Bold";
+}
+.owl-dots .owl-dot{
+    outline: none;
+}
+.owl-dots .owl-dot span{
+    background-color: #93A5FF !important;
+    opacity: 0.4;
+}
+.owl-dots .owl-dot.active span{
+    transform: scale(1.6);
+    opacity: 1;
+}
+
+/*======================footer===========================*/
+
+footer{
+    background: url("../imags/footer/footer_bg.png");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 120px 0 20px 0;
+}
+.footer-list{
+
+}
+.footer-list-title{
+text-transform: uppercase;
+}
+.footer-menu{
+list-style-type: none;
+    padding-left:0 ;
+}
+.footer-menu-item{
+margin-bottom: 8px;
+}
+.footer-menu-link{
+
+}
+.accepts{
+height: 35px;
+}
+.accept .img-5{
+    width: 45%;
+}
+.accept{
+    background-color: #2d355d;
+    border-radius: 5px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px;
+    margin-bottom: 5px;
+    width: 70px;
+}
+.accept img{
+width: 65%;
+}
+.sol-item{
+    margin-right: 10px;
+
+}
+.footer-bottom{
+    margin-top: 50px;
+    align-items: end !important;
+}
+.cc{
+    margin-bottom: 10px;
+}
+.aa{
+    cursor: pointer;
+}
+.a1:after{
+    content: " ";
+    margin-right: 5px;
+    border-right: 1px solid white;
+
+}
+footer a:hover{
+    text-decoration: underline;
+}
